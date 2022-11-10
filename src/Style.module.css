@@ -1,0 +1,108 @@
+.container{
+    background-color: hsl(217, 54%, 11%);
+    max-width: 100vw;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    max-width: 350px;
+    width: 100%;
+    height: 596px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainInfo {
+    max-width: 302px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.equilibrium {
+    width: 100%;
+    height: 302px;
+    border-radius: 8px;
+}
+.title {
+    font-weight: 600;
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+}
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: hsl(215, 51%, 70%);
+}
+.MoreInfoBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92px;
+   
+}
+.priceBox img {
+    width: 11px;
+    height: 18px;
+}
+.priceBox p{
+    font-weight: 600;
+    font-size: 16px;
+    color: hsl(178, 100%, 50%);
+}
+.leftTimeBox {
+    width: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.leftTimeBox p{
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+.creatorBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width: 33px;
+    height: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.avatar img{
+    width: 100%;
+}
+.creatorBox p{
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 16px;
+}
+.creatorBox span {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 5px;
+}

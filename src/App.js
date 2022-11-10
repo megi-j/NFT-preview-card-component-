@@ -1,10 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import styles from './Style.module.css'
+import Card from './Card';
 
 function App() {
   return (
-    <div className="App">
-     my first github project
+    <div className={styles.container}>
+     <Card />
     </div>
   );
 }

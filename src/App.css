@@ -1,5 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap'); */
-/* .container{
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+.container{
     background-color: hsl(217, 54%, 11%);
     max-width: 100vw;
     width: 100%;
@@ -7,8 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-} */
-/* .card {
+}
+.card {
     max-width: 350px;
     width: 100%;
     height: 596px;
@@ -151,4 +152,4 @@
 .creatorBox span:hover {
     cursor: pointer;
     color: hsl(178, 100%, 50%);
-} */
+}

@@ -1,4 +1,3 @@
-import styles from './Style.module.css'
 import Image from './Image'
 import { Name } from './Name'
 import Text from './Text'
@@ -8,7 +7,7 @@ import CreatorBox from './CreatorBox'
 
 export default function MainInfo(){
     return (
-        <div className={styles.mainInfo}>
+        <div className="mainInfo">
              <Image />
              <Name />
              <Text />

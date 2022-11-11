@@ -1,9 +1,9 @@
-import styles from './Style.module.css'
 import Card from './Card';
+import './App.css'
 
 function App() {
   return (
-    <div className={styles.container}>
+    <div className="container">
      <Card />
     </div>
   );

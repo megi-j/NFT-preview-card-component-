@@ -1,5 +1,3 @@
-import styles from './Style.module.css'
-
 export default function Line(){
-    return <div className={styles.line}></div>
+    return <div className="line"></div>
 }

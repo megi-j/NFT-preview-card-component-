@@ -1,6 +1,6 @@
 import styles from './Style.module.css'
 import Image from './Image'
-import { Title } from './Title'
+import { Name } from './Name'
 import Text from './Text'
 import MoreInfoBox from './MoreInfoBox'
 import Line from './Line'
@@ -10,7 +10,7 @@ export default function MainInfo(){
     return (
         <div className={styles.mainInfo}>
              <Image />
-             <Title />
+             <Name />
              <Text />
              <MoreInfoBox />
              <Line />
